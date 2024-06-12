@@ -58,10 +58,10 @@ const updateGame = (p1,p2,gameState) => {
 }
 
 // ** Create the Player class which can create a player with all it's attributes and methods **
-// qazi = Player('Qazi', 100, 7)
-// qazi.name 👉 'Qazi'
-// qazi.health 👉 100
-// qazi.attackDmg 👉 7
+// p1 = Player('Player 1', 100, 7)
+// p1.name 👉 'Player 1'
+// p1.health 👉 100
+// p1.attackDmg 👉 7
 
 class Player {
   constructor(name, health, attackDamage) {
